@@ -1,0 +1,23 @@
+{
+    "name": "newestindustry/envconf",
+    "description": "A simple configuration handler that reads environment variables automatically based on values in a Config object",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martijn van Maasakkers",
+            "email": "martijn@vanmaasakkers.net",
+            "homepage": "https://twitter.com/mvmaasakkers",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["environment", "config", "12factor"],
+    "require": {
+        "php": ">=5.3.0",
+		"rain/raintpl": ">=3.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Envconf": "src"
+        }
+    }
+}
